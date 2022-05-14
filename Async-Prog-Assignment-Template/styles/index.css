@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: aqua;
+}
+
+
+body{
+    background-color: rgb(39, 26, 26);
+    color: white;
+}
+#navbar{
+    color: wheat;
+    text-align:right;
+    background-color: black;
+   
+}
+button{
+    padding: 20px;
+    background-color: black;
+    border: none;
+    font-size: 20px;
+    color: bisque;
+    cursor: pointer;
+
+}
+img{
+    width: 100%;
+    height: 500px;
+}
+#url{
+    padding: 20px;
+}
+button:hover{
+    background-color: gray;
+}
+
+#movies{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    margin-top: 30px;
+    
+}
+#boximg{
+    height: 250px;
+    width: 70%;
+}

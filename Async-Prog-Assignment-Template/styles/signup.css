@@ -1,0 +1,37 @@
+#navbar{
+    color: wheat;
+    text-align:right;
+    background-color: black;
+   
+}
+button{
+    padding: 20px;
+    background-color: black;
+    border: none;
+    font-size: 20px;
+    color: bisque;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: gray;
+}
+input{
+    padding: 10px;
+    font-size: 20px;
+    background-color: antiquewhite;
+    margin-top: 15px;
+}
+body{
+    
+    background-color: rgb(39, 26, 26);
+}
+#signup-form-div{
+    height: 300px;
+    width: 15%;
+    /* border: 1px solid black; */
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+
+}

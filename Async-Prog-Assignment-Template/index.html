@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+         <link rel="stylesheet" href="styles/index.css">
+    </head>
+
+    <body>
+        <h1>MŐVĨĔMÁŚÁĹÁ</h1>
+        <div id="navbar">
+           
+            <a href="login.html"><button>login</button></a>
+            <a href="signup.html"><button>signup</button></a>
+        </div>
+
+        <input type="url" id="url" placeholder="Enter your favourite movie image url">
+        <button onclick="storeimgs()">submit url</button>
+        <button onclick="stop()">stop sliding</button>
+        <button onclick="start()">start sliding</button>
+
+        <!-- <select id="sortbyimbd" onchange="changebyimbd()">
+           <option value="">sortby imdb rating</option>
+           <option value="htl">high to low</option>
+           <option value="lth">low to high</option>
+        </select> -->
+
+        <button  id="sort-lh">Sort by low rating to high</button>
+        <button  id="sort-hl">Sort by high rating to low</button>
+
+
+        <div id="slideshow">
+            <!--Show Slideshow here-->
+
+        </div>
+
+        <div id="sort-buttons">
+
+            <!--Add sorting here-->
+        </div>
+        <div id="movies">
+            <!--Show list of movies here-->
+        </div>
+    </body>
+
+</html>
+
+<script src="scripts/index.js"></script>
